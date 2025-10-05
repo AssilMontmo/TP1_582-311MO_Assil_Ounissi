@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TP1 Web 3 - Clair Obscur</title>
+  <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Trailer">
+        🎨 Clair Obscur
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="Trailer" tabindex="-1" aria-labelledby="Trailer-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Entête -->
+            <div class="modal-header">
+              <h5 class="modal-title" id="Trailer-label">Trailer "🎨 Clair Obscur" </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Corps -->
+            <div class="modal-body">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/-qgOZDRDynw?si=BKZlk_rTWWb8A4Ki" title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <!-- Pied -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Intro">Introduction</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Gameplay">Gameplay</a></li>
+          <li class="nav-item"><a class="nav-link" href="#art">Qualité artistique</a></li>
+          <li class="nav-item"><a class="nav-link" href="#music">Musique</a></li>
+          <li class="nav-item"><a class="nav-link" href="#verdict">Conclusion</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1>Clair Obscur: Expedition 33 <i class="bi bi-palette"></i> <i class="bi bi-brush"></i></h1>
+    </div>
+  </header>
+
+  <section id="Intro" class="container text-center py-5 px-3 bg-primary">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-3">🕯 Introduction</h2>
+        <p>
+          Clair Obscur, sorti en début 2025, est un jeu en tour par tour. Il raconte l'histoire de Maelle et Gustave,
+          des citoyens de la ville de Lumiere qui veulent tout simplement le bien du peuple. Il y'a maintenant 67 ans,
+          la "Paintress" et le "Monolith" sont apparus dans le monde. Le monolith est apparu avec le nombre 100 et la
+          paintress réduit ce nombre de 1 chaque année, effaçant de l'existence toute personne ayant atteint l'âge
+          correspondant. Le nombre vient de descendre à 33 et les citoyens de Lumiere cherchent à vaincre la paintress
+          afin qu'elle ne puisse plus effacer plus de ces habitants. <br><br>
+          L'histoire commence donc en tant que Gustave la nuit du "Gommage" où le chiffre va descendre à 33. Le jeu est
+          visuellement plaisant, les musiques sont incroyables et le système de combat est amusant et fluide.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="assets/Intro.png" class="img-fluid rounded" alt="Clair-Obscur-Intro">
+      </div>
+    </div>
+  </section>
+
+  <section id="Gameplay" class="container text-center bg-dark py-5 px-3">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-md-6 text-center">
+        <img src="assets/Clair-Obscur-Gameplay.png" class="img-fluid rounded" alt="Clair-Obscur-Gameplay">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-3">🎮 Gameplay</h2>
+        <p>
+          Clair Obscur est un jeu en tour par tour. Ce qui le différencie des autres est le fait qu'on puisse esquiver
+          et parer les attaques lorsque c'est le tour de l'ennemi. On commence doucement avec des attaques assez faciles
+          à parer, puis on augmente graduellement la difficulté avec des attaques plus rapides, plus longues et plus
+          aléatoires.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="art" class="container text-center py-5 px-3 bg-primary">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-4">🎨 Qualité artistique</h2>
+        <p>
+          L'art est une grande partie de l'histoire du jeu en elle-même, et cela se reflète sur la qualité graphique. Il
+          se peut que lors de votre première aventure, vous vous arrêtiez régulièrement pour apprécier le décor. Les
+          animations sont fluides, les combats sont magnifiques et les cinématiques auraient pu provenir d'un film.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="assets/Art.png" class="img-fluid rounded" alt="Clair-Obscur-art">
+      </div>
+    </div>
+  </section>
+
+  <section id="music" class="container bg-dark py-5 px-3">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <audio controls class="w-75">
+            <source src="assets/Alicia.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-4">🎵 Le "Sound design"</h2>
+          <p>
+            La musique est l'un des points forts de Clair Obscur. Elle est souvent très poétique pour suivre un scénario
+            hors pair, mais nous avons également plusieurs moments de musique épique qui ne font qu'ajouter au moment.
+            Les musiques "Une vie à t'aimer", "Alicia" et celle "Paintress" furent très acclamées par le public comme
+            étant l'une de leurs musiques préférées tous jeux confondus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="verdict" class="container py-4 px-3 bg-dark">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="conclude text-center p-4">
+          <h2 class="fw-bold">Conclusion</h2>
+          <p class="lead mt-3">
+            Nous avons tous été surpris par la qualité du jeu, même s'il n'était pas spécialement attendu, c'était
+            vraiment la découverte de l'année.
+          </p>
+          <h3 class="text-success fw-bold mt-3">⭐ 10 / 10 ⭐</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-danger color-white text-center py-2">
+    <p>© 2025 Critique de Clair Obscur: Expedition 33 | Par Ounissi Assil | Dans le cadre du cours Web 3</p>
+  </footer>
+
+</body>
+
+</html>
